@@ -1,20 +1,66 @@
 aid: terranox-ai
-name: Terranox Ai
-description: Terranox Ai is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Terranox AI
+description: >-
+  Terranox AI is the first vertically integrated, AI-powered uranium discovery
+  company, founded in 2026 and part of Y Combinator's Winter 2026 batch. The
+  company finds high-grade uranium deposits in North America by training machine
+  learning models on more than seventy years of exploration outcomes locked in
+  thousands of legacy PDFs, drill logs, and hand-drawn geological maps.
+  Traditional uranium exploration has a hit rate below one percent and timelines
+  measured in decades; Terranox aims to raise that hit rate and compress
+  discovery time to help supply the fuel a global nuclear-energy resurgence
+  needs — the world must roughly quadruple uranium production by 2050. Terranox
+  is a private operating company focused on geoscience and mineral exploration
+  and does not currently publish a public developer API, SDK, or developer
+  portal. It is backed by General Catalyst, 776 Ventures, and Y Combinator.
 url: https://raw.githubusercontent.com/api-evangelist/terranox-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
+- general-catalyst
+- 776-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-api-surface
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Energy
+- Nuclear
+- Uranium
+- Mineral Exploration
+- Geoscience
+- Climate Tech
+- Y Combinator
+image: https://terranox.ai
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
+common:
+- type: DomainSecurity
+  url: security/terranox-ai-domain-security.yml
+- type: Website
+  url: https://terranox.ai
+- type: Company
+  url: https://www.ycombinator.com/companies/terranox-ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
