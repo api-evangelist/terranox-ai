@@ -50,7 +50,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Energy
 - Nuclear
 - Uranium
@@ -69,6 +69,7 @@ tags_raw:
 - Geoscience
 - Climate Tech
 - Y Combinator
+- Machine-Learning
 image: https://terranox.ai
 x-enrichment:
   date: '2026-07-21'
